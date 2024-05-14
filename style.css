@@ -108,7 +108,11 @@ label{
 }
 
 .checkbox{
-    width: 20px;
+    width: 20p@media screen and (min-width: 900px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
+}x;
     height: 20px;
     cursor: pointer;
 }
@@ -139,4 +143,9 @@ label{
 .parametro-senha-textos{
     display: flex;
     justify-content: space-between;
+}
+@media screen and (min-width: 900px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
 }
